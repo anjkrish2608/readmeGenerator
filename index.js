@@ -38,23 +38,23 @@ function init() {
         },
         {
             type: "input",
-            message: "usage?",
+            message: "What are the usage instructions for your application?",
             name: "usage"
         },
         {
             type: "input",
-            message: "If you have a lisence please enter:",
+            message: "What liscence do you have and what are the conditions?",
             name: "liscence"
         },
         {
             type: "input",
-            message: "contributor guidelines",
+            message: "What are the guidelines for contribution to your application?",
             name: "guidelines"
 
         },
         {
             type: "input",
-            message: "Tests?",
+            message: "Please link to premade tests for your application, and give any test instructions?",
             name: "tests"
 
         },
@@ -68,7 +68,7 @@ function init() {
             inquirer.prompt([
                 {
                     type: "input",
-                    message: "list the contributors: [name](https.github.com/githubAccountName) separate contributors by comma",
+                    message: "List the application's contributors: [name](https.github.com/githubAccountName) separate contributors by comma",
                     name: "contributorsInput"
 
                 }]).then(function (response) {
