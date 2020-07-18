@@ -68,11 +68,11 @@ function init() {
             inquirer.prompt([
                 {
                     type: "input",
-                    message: "list the contributors as shown (name githubAccountName) followed by comma if multiple:",
+                    message: "list the contributors: [name](https.github.com/githubAccountName) separate contributors by comma",
                     name: "contributorsInput"
 
-                }]).then(function (contributorsOutput) {
-                    const finalResponse = { ...response, ...contributorsOutput };
+                }]).then(function (response) {
+                    const finalResponse = { ...response, ...response2 };
                     writeToFile("README.md", finalResponse);
                 });
         }
@@ -94,7 +94,7 @@ function writeToFile(fileName, data) {
     const liscence=data.liscence;
     const tests=data.tests;
     const guidelines=data.guidelines;
-    const contributorNames=data.contributorsOutput;
+    const contributorNames=data.contributorsInput;
 
     //altering table of contents and content depending on contributors
     let content ="";
