@@ -2,10 +2,6 @@
 const fs = require("fs");
 
 const inquirer = require("inquirer");
-const util = require("util");
-const { title } = require("process");
-const { type } = require("os");
-const writeFileAsync = util.promisify(fs.writeFile);
 
 
 // function to initialize program
