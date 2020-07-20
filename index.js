@@ -67,7 +67,7 @@ function init() {
                     message: "List the application's contributors: [name](https.github.com/githubAccountName) separate contributors by comma",
                     name: "contributorsInput"
 
-                }]).then(function (response) {
+                }]).then(function (response2) {
                     const finalResponse = { ...response, ...response2 };
                     writeToFile("README.md", finalResponse);
                 });
