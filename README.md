@@ -1,6 +1,11 @@
 # Readme Generator
-picture
-[Click here to view repository]()
+Below is an example of the output of the application, the file can be accessed [here](testing_README.md).
+
+
+<img src="outputeg.png" width="400"  alt="Output Example"/>
+
+[Click here to view repository](https://anjkrish2608.github.io/readmeGenerator/)
+
 ## Table of Contents
 
 * [Description of Application](#des)
