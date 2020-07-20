@@ -4,7 +4,7 @@ Below is an example of the output of the application, the file can be accessed [
 
 <img src="outputeg.png" width="400"  alt="Output Example"/>
 
-[Click here to view repository](https://anjkrish2608.github.io/readmeGenerator/)
+[Click here to view repository](https://github.com/anjkrish2608/readmeGenerator)
 
 ## Table of Contents
 
